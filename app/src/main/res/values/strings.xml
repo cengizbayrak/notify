@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Notify</string>
+    <string name="notification_settings">Lütfen bildirim erişimine izin verin</string>
+    <string name="notification_cancel">İptal</string>
+    <string name="no_notif_msg">Yeni bildirim alana kadar \n beklemen gerekmez mi?  Hadi canım.</string>
+    <string name="edit">Düzenle</string>
+    <string name="about">Hakkında</string>
+    <string name="update">GÜNCELLE</string>
+    <string name="enter">GİR</string>
+    <string name="app_icon">Uygulama Simgesi</string>
+    <string name="choose_apps_info">Bildirim almak istediğin uygulamaları Seç / Düzenle</string>
+    <string name="notification">Bildirim</string>
+    <string name="loading_app_list">Uygulama listesi yükleniyor…</string>
+    <string name="choose_info">Bu uygulama, sayısız rahatsız edici bildirim arasında yalnızca gerekli olanları yakalamanıza olanak tanır. Akıllıca seçtiğinizden emin olun.</string>
+    <string name="permission_info">Her şey işbirliği gerektirir. Bu uygulama da. Lütfen bildirim dinleyici izinlerini etkinleştirin.</string>
+    <string name="care_info">Bu uygulama, üç günlük bildirimleri siler, dolayısıyla karışıklığı azaltır. Bak, seni önemsiyoruz.</string>
+    <string name="edit_info">Yanlış bir uygulama seçtiğinizden mi endişeleniyorsunuz? Sorun değil, devam edin ve düzenle düğmesine tıklayarak değiştirin.</string>
+    <string name="delete">Sil</string>
+    <string name="open_the_app">Uygulamayı Aç</string>
+    <string name="app_notification_listen_permission_info">Bu uygulama bildirim dinleme izinlerine ihtiyaç duymaktadır.</string>
+    <string name="hello">Merhaba</string>
+    <string name="okay">Tamam</string>
+    <string name="delete_notifications">Bildirimleri Sil</string>
+</resources>
