@@ -2,7 +2,7 @@
     <string name="app_name">Notify</string>
     <string name="notification_settings">Lütfen bildirim erişimine izin verin</string>
     <string name="notification_cancel">İptal</string>
-    <string name="no_notif_msg">Yeni bildirim alana kadar \n beklemen gerekmez mi?  Hadi canım.</string>
+    <string name="no_notification_message">Yeni bildirim alana kadar bekle.</string>
     <string name="edit">Düzenle</string>
     <string name="about">Hakkında</string>
     <string name="update">GÜNCELLE</string>

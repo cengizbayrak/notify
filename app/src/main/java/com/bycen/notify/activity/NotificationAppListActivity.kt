@@ -129,9 +129,15 @@ class NotificationAppListActivity : AppCompatActivity() {
     private fun populate() {
         TaskRunner.singleton.executeAsync({
             val list = notifyDataBaseHelper!!.allNotificationApps.sortedWith { p0, p1 ->
-                val n0 = p0.name!!.uppercase(LOCALE_TR)
-                val n1 = p1.name!!.uppercase(LOCALE_TR)
-                Collator.getInstance(LOCALE_TR).compare(n0, n1)
+                return@sortedWith when {
+                    p0.notificationCount > p1.notificationCount -> -1
+                    p0.notificationCount < p1.notificationCount -> 1
+                    else -> {
+                        val n0 = p0.name!!.uppercase(LOCALE_TR)
+                        val n1 = p1.name!!.uppercase(LOCALE_TR)
+                        Collator.getInstance(LOCALE_TR).compare(n0, n1)
+                    }
+                }
             }
             ArrayList<NotificationApp>(list)
         }) { listSorted ->

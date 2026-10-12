@@ -19,7 +19,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:gravity="center"
-        android:text="@string/no_notif_msg"
+        android:text="@string/no_notification_message"
         android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:visibility="gone" />
